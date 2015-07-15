@@ -5,8 +5,8 @@
 ini_set("allow_url_include", true);
 
 $lib_path = LIB_PATH;
-$document = `perl $lib_path/openedit-parser.pl $path/$dir`;
 
+# $document = `perl $lib_path/openedit-parser.pl $path/$dir`;
 
 
 //This displays the path, current file name, and provides the edit and show options //

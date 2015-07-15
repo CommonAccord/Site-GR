@@ -1,8 +1,5 @@
 <?php 
 
-// CHANGE - URLFOR REPO - and in /vendor/CommonAccord/cmacc/libary/cmacc_helpers.php - edit titles etc.
-// 
-
 DEFINE('ROOT' ,dirname(__FILE__) ); // Root directory of site
 
 DEFINE('LIB_PATH', ROOT . '/vendor/CommonAccord/cmacc/library'); // Create global variable to our library	
@@ -20,4 +17,3 @@ DEFINE('TEXTEDITAREASTYLE', 'font-size: 16px; padding:10px;'); //Sets the size o
 
 include("cmacc_helpers.php");
 
-?>
